@@ -9,6 +9,10 @@
     border-right: 1px solid black;
   }
 
+  #sideBar img {
+    margin-left: 1%;
+  }
+
   main {
     width: 69%;
     margin: 0;
