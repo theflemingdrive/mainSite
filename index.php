@@ -63,7 +63,7 @@
 	</header>
 
   <div id="sideBar">
-    <img src="/resource/img/logoLarge.png" alt="Fleming Drive Logo" width="100%" height="auto">
+    <img src="/resource/img/logoLarge.png" alt="Fleming Drive Logo" width="98%" height="auto">
   </div>
 
 	<main>
