@@ -1,16 +1,10 @@
-var app = angular.module("myApp", ["ngRoute"]);
+var app = angular.module("sideNav", ["ngRoute"]);
 app.config(function($routeProvider) {
   $routeProvider
   .when("/", {
-    templateUrl : "main.htm"
+    templateUrl : "../sideNav/index.htm"
   })
-  .when("/red", {
-    templateUrl : "red.htm"
-  })
-  .when("/green", {
-    templateUrl : "green.htm"
-  })
-  .when("/blue", {
-    templateUrl : "blue.htm"
+  .when("/vectorAdd", {
+    templateUrl : "../sideNav/calc/vectorAdd.php"
   });
 });
