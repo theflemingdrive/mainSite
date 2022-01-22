@@ -14,6 +14,8 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/resource/css/desktop.css">
+    <link rel="stylesheet" href="/resource/css/clearFix.css">
+    <link rel="stylesheet" href="/resource/css/cssReset.css">
 
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
