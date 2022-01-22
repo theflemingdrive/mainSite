@@ -6,6 +6,9 @@ app.config(function($routeProvider) {
   })
   .when("/vectorAdd", {
     templateUrl : "http://www.theflemingdrive.com/resource/sideNav/calc/vectorAdd.htm"
+  })
+  .otherwise({
+    template : "<h1>None</h1><p>Nothing has been selected</p>"
   });
 });
 
