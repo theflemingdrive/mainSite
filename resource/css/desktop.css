@@ -13,4 +13,10 @@
     float: left;
   }
 
+  #adBlock {
+    width: 25vw;
+    margin: 0;
+    float: left;
+  }
+
 }
