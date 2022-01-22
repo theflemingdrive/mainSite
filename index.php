@@ -29,7 +29,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 
     <!-- Scripts -->
-    <script src="/resource/js/sidebarNav.js"></script>
+    <!-- <script src="/resource/js/sidebarNav.js"></script> -->
 
 </head>
 <body ng-app="sideNav">
@@ -117,6 +117,22 @@
 
 	<footer>
 	</footer>
+
+  <script>
+  var app = angular.module("sideNav", ["ngRoute"]);
+  app.config(function($routeProvider) {
+    $routeProvider
+    .when("/", {
+      templateUrl : "http://www.theflemingdrive.com/resource/sideNav/home.htm"
+    })
+    .when("/vectorAdd", {
+      templateUrl : "http://www.theflemingdrive.com/resource/sideNav/calc/vectorAdd.htm"
+    })
+    .otherwise({
+      template : "<h1>None</h1><p>Nothing has been selected</p>"
+    });
+  });
+  </script>
 
 </body>
 </html>
