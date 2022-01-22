@@ -13,6 +13,7 @@
     <![endif]-->
 
     <!-- Stylesheets -->
+    <link rel="stylesheet" href="/resource/css/desktop.css">
 
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
