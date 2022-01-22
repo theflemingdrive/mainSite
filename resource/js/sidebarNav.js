@@ -2,10 +2,10 @@ var app = angular.module("sideNav", ["ngRoute"]);
 app.config(function($routeProvider) {
   $routeProvider
   .when("/", {
-    templateUrl : "//sideNav/home.htm"
+    templateUrl : "/sideNav/home.htm"
   })
   .when("/vectorAdd", {
-    templateUrl : "//sideNav/calc/vectorAdd.php"
+    templateUrl : "/sideNav/calc/vectorAdd.php"
   });
 });
 
