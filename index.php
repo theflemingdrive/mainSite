@@ -31,7 +31,7 @@
     <!-- Scripts -->
 
 </head>
-<body>
+<body ng-app="myApp">
 
   <header>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -107,7 +107,7 @@
 
 <!-- ````````````````````````````` END SIDEBAR ``````````````````````````````````````````````` -->
 
-	<main>
+	<main ng-view>
     <h1>Heading 1</h1>
 	</main>
 
