@@ -8,3 +8,7 @@ app.config(function($routeProvider) {
     templateUrl : "/../sideNav/calc/vectorAdd.php"
   });
 });
+
+app.controller("veAddCtrl", function ($scope) {
+    $scope.msg = "VecAdd";
+});
