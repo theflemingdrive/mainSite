@@ -31,7 +31,7 @@
     <!-- Scripts -->
 
 </head>
-<body ng-app="myApp">
+<body ng-app="sideNav">
 
   <header>
     <nav class="navbar navbar-inverse navbar-fixed-top">
