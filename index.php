@@ -85,10 +85,10 @@
 
     <div class="panel-group">
       <div class="panel panel-default">
-        <div class="panel-heading" data-toggle="collapse" href="#collapse1">
+        <div class="panel-heading" data-toggle="collapse" href="#collapse2">
           <h4 class="panel-title">Calculators</h4>
         </div>
-        <div id="collapse1" class="panel-collapse collapse">
+        <div id="collapse2" class="panel-collapse collapse">
           <ul class="list-group">
             <li class="list-group-item">One</li>
             <li class="list-group-item">Two</li>
