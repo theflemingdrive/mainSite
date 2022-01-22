@@ -29,7 +29,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 
     <!-- Scripts -->
-    
+
 
 </head>
 <body>
@@ -94,6 +94,22 @@
           <h4 class="panel-title">Calculators</h4>
         </div>
         <div id="collapse2" class="panel-collapse collapse">
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#">Vector Addition</a></li>
+            <li class="list-group-item">Two</li>
+            <li class="list-group-item">Three</li>
+          </ul>
+          <div class="panel-footer">Footer</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading" data-toggle="collapse" href="#collapse3">
+          <h4 class="panel-title">Math Stuff</h4>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
           <ul class="list-group">
             <li class="list-group-item"><a href="#">Vector Addition</a></li>
             <li class="list-group-item">Two</li>
