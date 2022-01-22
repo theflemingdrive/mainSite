@@ -29,6 +29,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 
     <!-- Scripts -->
+    <script src="/resource/js/sidebarNav.js"></script>
 
 </head>
 <body ng-app="sideNav">
