@@ -5,7 +5,7 @@ app.config(function($routeProvider) {
     templateUrl : "/../sideNav/index.htm"
   })
   .when("/vectorAdd", {
-    templateUrl : "/../sideNav/calc/vectorAdd.php"
+    templateUrl : "//sideNav/calc/vectorAdd.php"
   });
 });
 
