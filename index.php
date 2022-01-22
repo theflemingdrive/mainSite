@@ -27,7 +27,7 @@
 <body>
 
   <header>
-    <span id="siteLogo"><img src="/resource/img/logoSmall.png" alt="Fleming Drive Logo" width="100%" height="auto"></span>
+    <span id="siteLogo"><img src="/resource/img/logoLarge.png" alt="Fleming Drive Logo" width="100%" height="auto"></span>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
