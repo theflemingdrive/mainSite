@@ -4,6 +4,7 @@
     width: 25vw;
     margin: 0;
     float: left;
+    border-right: 1px solid black;
   }
 
   main {
