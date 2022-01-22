@@ -17,6 +17,7 @@
     width: 25vw;
     margin: 0;
     float: left;
+    border-left: 1px solid black;
   }
 
 }
