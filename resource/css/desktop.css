@@ -11,6 +11,7 @@
   main {
     width: 60%;
     margin: 0;
+    margin-top: 50px;
     float: left;
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -19,6 +20,7 @@
   #adBlock {
     width: 14%;
     margin: 0;
+    margin-top: 50px;
     margin-left: 3%;
     float: left;
     border-left: 1px solid black;
