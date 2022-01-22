@@ -67,6 +67,10 @@
 	<main>
 	</main>
 
+  <div id="adBlock">
+    
+  </div>
+
 	<footer>
 	</footer>
 
