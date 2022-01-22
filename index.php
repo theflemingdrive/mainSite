@@ -29,10 +29,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 
     <!-- Scripts -->
-    <!-- <script src="/resource/js/sidebarNav.js"></script> -->
+    
 
 </head>
-<body ng-app="sideNav">
+<body>
 
   <header>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -43,7 +43,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#/!">TheFlemingDrive</a>
+          <a class="navbar-brand" href="#">TheFlemingDrive</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
@@ -95,7 +95,7 @@
         </div>
         <div id="collapse2" class="panel-collapse collapse">
           <ul class="list-group">
-            <li class="list-group-item"><a href="#!vectorAdd">Vector Addition</a></li>
+            <li class="list-group-item"><a href="#">Vector Addition</a></li>
             <li class="list-group-item">Two</li>
             <li class="list-group-item">Three</li>
           </ul>
@@ -108,7 +108,7 @@
 
 <!-- ````````````````````````````` END SIDEBAR ``````````````````````````````````````````````` -->
 
-	<main ng-view>
+	<main>
     <h1>Hi</h1>
 	</main>
 
@@ -118,22 +118,6 @@
 
 	<footer>
 	</footer>
-
-  <script>
-  var app = angular.module("sideNav", ["ngRoute"]);
-  app.config(function($routeProvider) {
-    $routeProvider
-    .when("/", {
-      templateUrl : "http://www.theflemingdrive.com/resource/sideNav/home.htm"
-    })
-    .when("/vectorAdd", {
-      templateUrl : "http://www.theflemingdrive.com/resource/sideNav/calc/vectorAdd.htm"
-    })
-    .otherwise({
-      template : "<h1>None</h1><p>Nothing has been selected</p>"
-    });
-  });
-  </script>
 
 </body>
 </html>
