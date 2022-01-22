@@ -13,6 +13,10 @@
     margin-left: 1%;
   }
 
+  .panel-group {
+    margin: 0;
+  }
+
   main {
     width: 69%;
     margin: 0;
