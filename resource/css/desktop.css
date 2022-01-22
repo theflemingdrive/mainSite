@@ -3,6 +3,7 @@
   #sideBar {
     width: 20%;
     margin: 0;
+    margin-right: 3%;
     float: left;
     border-right: 1px solid black;
   }
@@ -11,11 +12,14 @@
     width: 60%;
     margin: 0;
     float: left;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
   }
 
   #adBlock {
-    width: 20%;
+    width: 14%;
     margin: 0;
+    margin-left: 3%;
     float: left;
     border-left: 1px solid black;
   }
