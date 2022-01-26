@@ -74,16 +74,8 @@
 
     <div class="panel-group">
       <div class="panel panel-default">
-        <div class="panel-heading" data-toggle="collapse" href="#collapse1">
-          <h4 class="panel-title">Tools</h4>
-        </div>
-        <div id="collapse1" class="panel-collapse collapse">
-          <ul class="list-group">
-            <li class="list-group-item">One</li>
-            <li class="list-group-item">Two</li>
-            <li class="list-group-item">Three</li>
-          </ul>
-          <div class="panel-footer">Footer</div>
+        <div class="panel-heading" href="#/!">
+          <h4 class="panel-title">Home</h4>
         </div>
       </div>
     </div>
