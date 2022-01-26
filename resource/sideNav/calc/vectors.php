@@ -3,7 +3,5 @@
     <h1>Hi Vectors</h1>
 
 <?php
-    absVal(-23);
-    absVal(0);
-    absVal(9);
+    returnUnitVec(8, 5, 2);
 ?>
