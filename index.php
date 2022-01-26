@@ -32,7 +32,7 @@
 
 
 </head>
-<body>
+<body ng-app="myApp">
 
   <header>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -95,7 +95,7 @@
         </div>
         <div id="collapse2" class="panel-collapse collapse">
           <ul class="list-group">
-            <li class="list-group-item"><a href="#">Vector Addition</a></li>
+            <li class="list-group-item"><a href="#!red">Vectors</a></li>
             <li class="list-group-item">Two</li>
             <li class="list-group-item">Three</li>
           </ul>
@@ -124,7 +124,7 @@
 
 <!-- ````````````````````````````` END SIDEBAR ``````````````````````````````````````````````` -->
 
-	<main>
+	<main ng-view>
     <h1>Hi</h1>
 	</main>
 
@@ -134,6 +134,24 @@
 
 	<footer>
 	</footer>
+
+  <script>
+  app.config(function($routeProvider) {
+  $routeProvider
+  .when("/", {
+    templateUrl : "main.htm"
+  })
+  .when("/red", {
+    templateUrl : "red.htm"
+  })
+  .when("/green", {
+    templateUrl : "green.htm"
+  })
+  .when("/blue", {
+    templateUrl : "blue.htm"
+  });
+});
+</script>
 
 </body>
 </html>
