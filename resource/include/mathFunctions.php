@@ -8,7 +8,7 @@ function absVal($absVIn) {
   }
 }
 
-function returnUnitVec($vecMag, $vecAMag, $vecBMag) {
+function unitVec($vecMag, $vecAMag, $vecBMag) {
   echo sqrt(pow($vecMag, 2) - pow($vecAMag, 2) - pow($vecBMag, 2);
 }
 
