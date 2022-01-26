@@ -1,3 +1,4 @@
+<?php require "resource/include/mathFunctions.php" ?>
 
     <h1>Hi Vectors</h1>
 
