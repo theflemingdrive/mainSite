@@ -1,4 +1,4 @@
-<?php require "../../include/mathFunctions.php" ?>
+<?php require "/resource/include/mathFunctions.php" ?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="sid-plesk">
