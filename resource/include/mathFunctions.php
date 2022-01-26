@@ -2,9 +2,9 @@
 
 function absVal($absVIn) {
   if ($absVIn > 0) {
-    return $absVIn;
+    return '<p>' . $absVIn . '</p>';
   } else {
-    return $absVIn - $absVIn - $absVIn;
+    return '<p>' . $absVIn - $absVIn - $absVIn . '</p>';
   }
 }
 
