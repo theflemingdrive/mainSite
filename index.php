@@ -140,10 +140,10 @@
   app.config(function($routeProvider) {
   $routeProvider
   .when("/", {
-    templateUrl : "main.htm"
+    templateUrl : "resource/sideNav/home.htm"
   })
   .when("/red", {
-    templateUrl : "http://www.theflemingdrive.com/resource/sideNav/calc/vectors.php"
+    templateUrl : "/resource/sideNav/calc/vectors.php"
   })
   .when("/green", {
     templateUrl : "green.htm"
