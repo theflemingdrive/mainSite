@@ -73,11 +73,11 @@
     <img src="/resource/img/logoLarge.png" alt="Fleming Drive Logo" width="98%" height="auto">
 
     <div class="panel-group">
-      <div class="panel panel-default">
+      <a href="#/!"><div class="panel panel-default">
         <div class="panel-heading" href="#/!">
           <h4 class="panel-title">Home</h4>
         </div>
-      </div>
+      </div></a>
     </div>
 
     <div class="panel-group">
@@ -132,7 +132,7 @@
   app.config(function($routeProvider) {
   $routeProvider
   .when("/", {
-    templateUrl : "resource/sideNav/home.htm"
+    templateUrl : "/resource/sideNav/home.htm"
   })
   .when("/red", {
     templateUrl : "/resource/sideNav/calc/vectors.php"
