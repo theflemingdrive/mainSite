@@ -1,3 +1,5 @@
+<?php
+
 function absVal(absVIn) {
   if (absVIn > 0) {
     return absVIn;
@@ -5,3 +7,5 @@ function absVal(absVIn) {
     return absVIn - absVIn - absVIn;
   }
 }
+
+?>
