@@ -142,7 +142,7 @@
     templateUrl : "main.htm"
   })
   .when("/red", {
-    templateUrl : "red.htm"
+    templateUrl : "http://www.theflemingdrive.com/resource/sideNav/calc/vectors.php"
   })
   .when("/green", {
     templateUrl : "green.htm"
