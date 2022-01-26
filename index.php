@@ -124,9 +124,9 @@
 
 <!-- ````````````````````````````` END SIDEBAR ``````````````````````````````````````````````` -->
 
-	<main ng-view>
+	<div ng-view>
     <h1>Hi</h1>
-	</main>
+	</div>
 
   <div id="adBlock">
     <h1>Heading 2</h1>
