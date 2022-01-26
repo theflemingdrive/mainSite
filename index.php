@@ -1,4 +1,4 @@
-<?php require "/resource/include/mathFunctions.php" ?>
+<?php include "/resource/include/mathFunctions.php" ?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="sid-plesk">
@@ -76,7 +76,7 @@
 
     <div class="panel-group">
       <a href="#/!"><div class="panel panel-default">
-        <div class="panel-heading" href="#/!">
+        <div class="panel-heading">
           <h4 class="panel-title">Home</h4>
         </div>
       </div></a>
