@@ -15,7 +15,7 @@
     $avail = $actRuntime / $totalRuntime;
     $perform = ($actParts / $cycleTime) / $totalRuntime;
     $qual = ($actParts - $badParts) / $actParts;
-    $oeeActual = $avail * $perform * $qual;
+    $oeeActual = $avail * $perform * $qual * 100;
 
     function test_input($data) {
       $data = trim($data);
@@ -48,6 +48,6 @@
   </form>
 
   <h1>OEE: </h1>
-  <?php echo '<h3>' . $oeeActual . '</h3>'; ?>
+  <?php echo '<h3>' . $oeeActual . '%</h3>'; ?>
 </body>
 </html>
