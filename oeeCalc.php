@@ -49,9 +49,9 @@
 
   <h1>OEE: </h1>
   <?php echo '<h3>' . $oeeActual . '%</h3>';
-    echo $avail;
-    echo $perform;
-    echo $qual;
+    echo $avail . '<br>';
+    echo $perform . '<br>';
+    echo $qual . '<br>';
   ?>
 </body>
 </html>
