@@ -13,7 +13,7 @@
     $badParts = test_input($_POST["badParts"]);
 
     $avail = $actRuntime / $totalRuntime;
-    $perform = $actParts / $totalRuntime;
+    $perform = ($actParts / $cycleTime) / $totalRuntime;
     $qual = ($actParts - $badParts) / $actParts;
     $oeeActual = $avail * $perform * $qual;
 
