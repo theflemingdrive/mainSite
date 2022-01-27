@@ -1,7 +1,32 @@
 <!DOCTYPE html>
 <html>
 <body>
-  <form>
+
+  <?php
+    // define variables and set to empty values
+    $actRuntime = $totalRuntime = $cycleTime = $actParts = $badParts = "";
+
+    $actRuntime = test_input($_POST["actRuntime"]);
+    $totalRuntime = test_input($_POST["totalRuntime"]);
+    $cycleTime = test_input($_POST["cycleTime"]);
+    $actParts = test_input($_POST["actParts"]);
+    $badParts = test_input($_POST["badParts"]);
+
+    $avail = $actRuntime / $totalRuntime;
+    $perform = ($cycleTime * $actParts) / $totalRuntime;
+    $qual = ($actParts - $badParts) / $actParts;
+    $oeeActual = $avail * $perform * $qual;
+
+    function test_input($data) {
+      $data = trim($data);
+      $data = stripslashes($data);
+      $data = htmlspecialchars($data);
+      return $data;
+    }
+
+  ?>
+
+  <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <h1>OEE Calculator</h1>
     <hr>
     <label for="actRuntime">Actual Runtime (minutes): </label>
@@ -21,5 +46,8 @@
     <br><br>
     <input type="submit" placeholder="Submit">
   </form>
+
+  <h1>OEE: </h1>
+  <?php echo '<h3>' . $oeeActual . '</h3>'; ?>
 </body>
 </html>
