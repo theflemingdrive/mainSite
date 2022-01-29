@@ -1,7 +1,7 @@
 @media only screen and (min-width:800px) {
 
   body {
-    background-image: url('/../img/backTexture.jpg');
+    background-image: url(http://www.theflemingdrive.com/resource/img/backTexture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
