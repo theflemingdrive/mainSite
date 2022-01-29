@@ -1,17 +1,16 @@
-var app = angular.module("sideNav", ["ngRoute"]);
+var app = angular.module("myApp", ["ngRoute"]);
 app.config(function($routeProvider) {
   $routeProvider
   .when("/", {
-    templateUrl : "http://www.theflemingdrive.com/resource/sideNav/home.htm"
+    templateUrl : "/resource/sideNav/home.htm"
   })
-  .when("/vectorAdd", {
-    templateUrl : "http://www.theflemingdrive.com/resource/sideNav/calc/vectorAdd.htm"
+  .when("/red", {
+    templateUrl : "/resource/sideNav/calc/vectors.php"
   })
-  .otherwise({
-    template : "<h1>None</h1><p>Nothing has been selected</p>"
+  .when("/green", {
+    templateUrl : "green.htm"
+  })
+  .when("/blue", {
+    templateUrl : "blue.htm"
   });
-});
-
-app.controller("veAddCtrl", function ($scope) {
-    $scope.msg = "VecAdd";
 });
