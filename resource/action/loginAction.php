@@ -16,8 +16,8 @@ function test_input($data) {
 
 function checkLogin($usr, $pwd) {
   $servername = "localhost";
-  $username = "pubUser";
-  $password = "pubUser123$";
+  $username = "sfleming6488";
+  $password = "Feynman54!%";
   $dbname = "userData";
 
   // Create connection
