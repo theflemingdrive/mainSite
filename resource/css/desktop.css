@@ -1,7 +1,9 @@
 @media only screen and (min-width:800px) {
 
   body {
-    background-color: rgb(230, 230, 230);
+    background-image: url(/../img/backTexture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   #sideBar {
