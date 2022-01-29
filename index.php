@@ -56,14 +56,6 @@
             <li class="active"><a href="contact.php">Contact Me</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Work Data
-                <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="workData/rod_calc.php">Rod Calculator</a></li>
-                  <li><a href="workData/die_speeds.php">Die Speeds</a></li>
-                </ul>
-            </li>
             <li><button type="button" class="btn" data-toggle="modal" data-target="#loginWindow">LOGIN</button></li>
           </ul>
         </div>
