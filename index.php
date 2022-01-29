@@ -155,13 +155,13 @@
           <div class="form-group">
             <label class="control-label col-sm-2" for="userName">Username:</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="userName" maxlength="25" pattern="^[a-zA-Z0-9_.-]{7,26}[a-z]$" width="48" autocomplete="on" required>
+              <input type="text" class="form-control" id="userName" maxlength="25" width="48" autocomplete="on" required>
             </div>
           </div>
           <div class="form-group">
             <label class="control-label col-sm-2" for="passWord">Password:</label>
             <div class="col-sm-10">
-              <input type="password" class="form-control" id="passWord" maxlength="25" pattern="^[a-zA-Z0-9_.-!%$#@^*<>~]{7,26}[a-zA-Z0-9_.-!%$#@^*<>~]$" width="48" autocomplete="on" required>
+              <input type="password" class="form-control" id="passWord" maxlength="25" width="48" autocomplete="on" required>
             </div>
           </div>
           <div class="form-group">
