@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="sid-plesk">
 <head>
@@ -15,9 +13,9 @@
     <![endif]-->
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="/resource/css/desktop.css">
     <link rel="stylesheet" href="/resource/css/clearFix.css">
     <link rel="stylesheet" href="/resource/css/cssReset.css">
+    <link rel="stylesheet" href="/resource/css/desktop.css"> <!-- Desktop Stylesheet -->
 
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -31,11 +29,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 
     <!-- Scripts -->
+    <script src="/resource/js/sidebarNav.js"></script> <!-- Sidebar Navigation, AngularJS -->
 
 
 </head>
 <body ng-app="myApp">
 
+
+
+<!-- `````````````````````````` Header `````````````````````````````````````````````````` -->
   <header>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
@@ -62,12 +64,15 @@
                   <li><a href="workData/die_speeds.php">Die Speeds</a></li>
                 </ul>
             </li>
-            <li><a href="#" id="workLoginButton"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#loginWindow">Open Modal</button></li>
           </ul>
         </div>
       </div>
     </nav>
 	</header>
+<!-- `````````````````````````` End Header `````````````````````````````````````````````````` -->
+
+
 
 <!-- `````````````````````````` START SIDEBAR `````````````````````````````````````````````````` -->
 
@@ -118,35 +123,61 @@
 
 <!-- ````````````````````````````` END SIDEBAR ``````````````````````````````````````````````` -->
 
+
+
+<!-- `````````````````````````` Main View `````````````````````````````````````````````````` -->
 	<div id="mainView" ng-view>
     <h1>Hi</h1>
 	</div>
+<!-- `````````````````````````` End Main View `````````````````````````````````````````````````` -->
 
+
+
+<!-- `````````````````````````` Side Ads `````````````````````````````````````````````````` -->
   <div id="adBlock">
     <h1>Heading 2</h1>
   </div>
+<!-- `````````````````````````` End Side Ads `````````````````````````````````````````````````` -->
 
+
+
+<!-- `````````````````````````` Footer `````````````````````````````````````````````````` -->
 	<footer>
-	</footer>
 
-  <script>
-  var app = angular.module("myApp", ["ngRoute"]);
-  app.config(function($routeProvider) {
-  $routeProvider
-  .when("/", {
-    templateUrl : "/resource/sideNav/home.htm"
-  })
-  .when("/red", {
-    templateUrl : "/resource/sideNav/calc/vectors.php"
-  })
-  .when("/green", {
-    templateUrl : "green.htm"
-  })
-  .when("/blue", {
-    templateUrl : "blue.htm"
-  });
-});
-</script>
+	</footer>
+<!-- `````````````````````````` End Footer `````````````````````````````````````````````````` -->
+
+
+
+<!-- ```````````````````````````` Login Window ``````````````````````````````````````````````` -->
+  <div id="loginWindow" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Login</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <label for="userName">Username:</label>
+          <br><br>
+          <input type="text" name="userName" id="userName" class="inputFields">
+          <br><br>
+          <label for="passWord">Password:</label>
+          <br><br>
+          <input type="password" name="passWord" id="passWord" class="inputFields">
+          <br><br>
+          <input type="submit" value="SUBMIT">
+        </form>
+      </div>
+    </div>
+
+  </div>
+  </div>
+<!-- ```````````````````````````` End Login Window ``````````````````````````````````````````` -->
+
+
 
 </body>
 </html>
