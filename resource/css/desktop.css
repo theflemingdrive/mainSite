@@ -33,6 +33,10 @@
     border-right: 1px solid black;
   }
 
+  #homeImage {
+    border-radius:15px;
+  }
+
   #adBlock {
     width: 14%;
     margin: 0;
