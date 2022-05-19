@@ -51,10 +51,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <h1>Aladdin Maintenace</h1>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <h1>Aladdin Maintenace</h1>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
@@ -74,7 +73,7 @@
       <p>Lorem ipsum...</p>
     </div>
     <div class="col-sm-2 sidenav">
-      
+
     </div>
   </div>
 </div>
