@@ -54,7 +54,7 @@
       <a class="navbar-brand" href="#">Logo</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <img src="/resource/img/alBanner.jpg">
+      <img src="/resource/img/alBanner.jpg" height="15%">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
