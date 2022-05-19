@@ -71,7 +71,7 @@
   <div class="row content">
     <div class="col-sm-2 sidenav">
       <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
+      <p><a href="#">Link2</a></p>
       <p><a href="#">Link</a></p>
     </div>
     <div class="col-sm-8 text-left">
