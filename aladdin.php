@@ -66,11 +66,30 @@
     <div class="col-sm-2 sidenav">
     </div>
     <div class="col-sm-8 text-left">
-      <h1>Welcome</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <hr>
-      <h3>Test</h3>
-      <p>Lorem ipsum...</p>
+      <form>
+        <h1>Maintenance Request</h1>
+        <hr>
+        <label for="parkName">Park: </label>
+        <select id="parkName" name="parkName">
+          <option value="231">231</option>
+          <option value="hartselle">Hartselle</option>
+          <option value="Dudley">Dudley</option>
+        </select><br>
+        <label for="lotNo">Lot No. : </label>
+        <input type="text" id="lotNo" name="lotNo"><br>
+        <label for="probType">Problem Type: </label>
+        <select id="probType" name="probType">
+          <option value="plumbing">Plumbing</option>
+          <option value="electrical">Electrical</option>
+          <option value="sewage">Sewage</option>
+          <option value="hvac">HVAC</option>
+          <option value="exterior">Exterior</option>
+          <option value="other">Other</option>
+        </select><br>
+        <label for="description">Description: </label>
+        <input type="text" id="description" name="description"><br><br>
+        <input type="submit">
+      </form>
     </div>
     <div class="col-sm-2 sidenav">
 
