@@ -24,7 +24,9 @@
       height: 100%;
     }
 
-    footer {
+    form {
+      width: 100%;
+      height: 100%;
       display: flex;
       justify-content: center;
       align: center;
@@ -32,8 +34,6 @@
 
     /* Set black background color, white text and some padding */
     footer {
-      width: 100%;
-      height: 100%;
       background-color: #555;
       color: white;
       padding: 15px;
