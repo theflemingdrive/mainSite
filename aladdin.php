@@ -24,15 +24,10 @@
       height: 100%;
     }
 
-    .window {
+    footer {
       display: flex;
       justify-content: center;
       align: center;
-    }
-
-    form {
-      display: flex;
-      justify-content: center;
     }
 
     /* Set black background color, white text and some padding */
