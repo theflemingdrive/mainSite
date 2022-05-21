@@ -30,6 +30,12 @@
       align: center;
     }
 
+    form {
+      display: flex;
+      justify-content: center;
+      align: center;
+    }
+
     /* Set black background color, white text and some padding */
     footer {
       background-color: #555;
