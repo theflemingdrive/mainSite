@@ -24,6 +24,12 @@
       height: 100%;
     }
 
+    .window {
+      display: flex;
+      justify-content: center;
+      align: center;
+    }
+
     /* Set black background color, white text and some padding */
     footer {
       background-color: #555;
@@ -65,7 +71,7 @@
   <div class="row content">
     <div class="col-sm-2 sidenav">
     </div>
-    <div class="col-sm-8 text-left">
+    <div class="col-sm-8 text-left window">
       <form>
         <h1>Maintenance Request</h1>
         <hr>
