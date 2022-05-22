@@ -94,8 +94,7 @@
       if ($result->num_rows > 0) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
-          echo "<div class='table-responsive'>
-                  <table class='table table-hover'>
+          echo "<table class='table table-hover'>
                     <thead>
                       <tr>
                         <th>ID</th>
@@ -110,8 +109,7 @@
                     <tbody>
           <tr><td>" . $row["id"] . "</td><td>" . $row["dateReq"] . "</td><td>" . $row["lot"] . "</td><td>" . $row["type"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>" . $row['complete'] . "</td></tr>
           </tbody>
-          </table>
-          </div><br>";
+          </table>";
         }
       } else {
         echo "0 results";
@@ -143,8 +141,7 @@
       if ($result->num_rows > 0) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
-          echo "<div class='table-responsive'>
-                  <table class='table table-hover'>
+          echo "<table class='table table-hover'>
                     <thead>
                       <tr>
                         <th>ID</th>
@@ -159,8 +156,7 @@
                     <tbody>
           <tr><td>" . $row["id"] . "</td><td>" . $row["dateReq"] . "</td><td>" . $row["lot"] . "</td><td>" . $row["type"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>" . $row['complete'] . "</td></tr>
           </tbody>
-          </table>
-          </div><br>";
+          </table>";
         }
       } else {
         echo "0 results";
@@ -192,8 +188,7 @@
       if ($result->num_rows > 0) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
-          echo "<div class='table-responsive'>
-                  <table class='table table-hover'>
+          echo "<table class='table table-hover'>
                     <thead>
                       <tr>
                         <th>ID</th>
@@ -208,8 +203,7 @@
                     <tbody>
           <tr><td>" . $row["id"] . "</td><td>" . $row["dateReq"] . "</td><td>" . $row["lot"] . "</td><td>" . $row["type"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>" . $row['complete'] . "</td></tr>
           </tbody>
-          </table>
-          </div>";
+          </table>";
         }
       } else {
         echo "0 results";
