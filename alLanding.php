@@ -73,7 +73,6 @@
     </div>
     <div class="col-sm-8 text-left window">
 
-      <div>
       <h1>231/431</h1>
       <?php
       $servername = "localhost";
@@ -115,11 +114,9 @@
       }
       $conn->close();
       ?>
-      </div>
 
       <br><hr><br>
 
-      <div>
       <h1>Dudley Rd</h1>
       <?php
       $servername = "localhost";
@@ -163,11 +160,9 @@
       }
       $conn->close();
       ?>
-      </div>
 
       <br><hr><br>
 
-      <div>
       <h1>Hartselle</h1>
       <?php
       $servername = "localhost";
@@ -211,7 +206,6 @@
       }
       $conn->close();
       ?>
-      </div>
 
     </div>
     <div class="col-sm-2 sidenav">
