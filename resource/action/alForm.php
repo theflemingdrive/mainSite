@@ -30,7 +30,7 @@ if ($conn->connect_error) {
 }
 
 $sql = "INSERT INTO MyGuests (park, lot, type, description, dateReq)
-VALUES ('" . $parkName . "', '" . $lotNo . "', '" . $probType . "', '" . $description . "', '" . $date . "')";
+VALUES (" . $parkName . ", " . $lotNo . ", " . $probType . ", " . $description . ", " . $date . ")";
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
