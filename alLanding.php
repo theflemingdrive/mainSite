@@ -73,6 +73,7 @@
     </div>
     <div class="col-sm-8 text-left window">
 
+      <h1>231/431</h1>
       <?php
       $servername = "localhost";
       $username = "sfleming6488_almaint";
@@ -87,6 +88,96 @@
       }
 
       $sql = "SELECT * FROM requests WHERE park = '231'";
+      $result = $conn->query($sql);
+
+      if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+          echo "<div class='table-responsive'>
+                  <table class='table'>
+                    <thead>
+                      <tr>
+                        <th>ID</th>
+                        <th>Date</th>
+                        <th>Lot No.</th>
+                        <th>Type</th>
+                        <th>Description</th>
+                        <th>Notes</th>
+                        <th>Complete</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+          <tr><td>" . $row["id"] . "</td><td>" . $row["dateReq"] . "</td><td>" . $row["lot"] . "</td><td>" . $row["type"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>" . $row['complete'] . "</td></tr>
+          </tbody>
+          </table>
+          </div>";
+        }
+      } else {
+        echo "0 results";
+      }
+      $conn->close();
+      ?>
+
+      <h1>Dudley Rd</h1>
+      <?php
+      $servername = "localhost";
+      $username = "sfleming6488_almaint";
+      $password = "AlMaint123!%";
+      $dbname = "sfleming6488_almaint";
+
+      // Create connection
+      $conn = new mysqli($servername, $username, $password, $dbname);
+      // Check connection
+      if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+      }
+
+      $sql = "SELECT * FROM requests WHERE park = 'Dudley'";
+      $result = $conn->query($sql);
+
+      if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+          echo "<div class='table-responsive'>
+                  <table class='table'>
+                    <thead>
+                      <tr>
+                        <th>ID</th>
+                        <th>Date</th>
+                        <th>Lot No.</th>
+                        <th>Type</th>
+                        <th>Description</th>
+                        <th>Notes</th>
+                        <th>Complete</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+          <tr><td>" . $row["id"] . "</td><td>" . $row["dateReq"] . "</td><td>" . $row["lot"] . "</td><td>" . $row["type"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>" . $row['complete'] . "</td></tr>
+          </tbody>
+          </table>
+          </div>";
+        }
+      } else {
+        echo "0 results";
+      }
+      $conn->close();
+      ?>
+
+      <h1>Hartselle</h1>
+      <?php
+      $servername = "localhost";
+      $username = "sfleming6488_almaint";
+      $password = "AlMaint123!%";
+      $dbname = "sfleming6488_almaint";
+
+      // Create connection
+      $conn = new mysqli($servername, $username, $password, $dbname);
+      // Check connection
+      if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+      }
+
+      $sql = "SELECT * FROM requests WHERE park = 'Hartselle'";
       $result = $conn->query($sql);
 
       if ($result->num_rows > 0) {
