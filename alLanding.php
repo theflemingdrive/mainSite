@@ -222,7 +222,7 @@
 </div>
 
 <footer class="container-fluid text-center">
-  <p>Footer Text</p>
+  <p><?php echo date("l jS \of F Y h:i:s A"); ?></p>
 </footer>
 
 </body>
