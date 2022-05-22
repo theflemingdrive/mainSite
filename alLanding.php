@@ -119,7 +119,7 @@
 
       <br><hr><br>
 
-      <div class="well well-lg">
+      <div class="well well-lg" style="clear:both;">
       <h1>Dudley Rd</h1>
       <?php
       $servername = "localhost";
