@@ -30,10 +30,6 @@
       align: center;
     }
 
-    .table-responsive {
-      width: 100%;
-    }
-
     /* Set black background color, white text and some padding */
     footer {
       background-color: #555;
@@ -99,7 +95,7 @@
         // output data of each row
         while($row = $result->fetch_assoc()) {
           echo "<div class='table-responsive'>
-                  <table class='table'>
+                  <table class='table table-hover'>
                     <thead>
                       <tr>
                         <th>ID</th>
@@ -148,7 +144,7 @@
         // output data of each row
         while($row = $result->fetch_assoc()) {
           echo "<div class='table-responsive'>
-                  <table class='table'>
+                  <table class='table table-hover'>
                     <thead>
                       <tr>
                         <th>ID</th>
@@ -197,7 +193,7 @@
         // output data of each row
         while($row = $result->fetch_assoc()) {
           echo "<div class='table-responsive'>
-                  <table class='table'>
+                  <table class='table table-hover'>
                     <thead>
                       <tr>
                         <th>ID</th>
