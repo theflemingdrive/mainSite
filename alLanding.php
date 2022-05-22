@@ -107,9 +107,8 @@
                       </tr>
                     </thead>
                     <tbody>
-          <tr><td>" . $row["id"] . "</td><td>" . $row["dateReq"] . "</td><td>" . $row["lot"] . "</td><td>" . $row["type"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>" . $row['complete'] . "</td></tr>
-          </tbody>
-          </table>";
+          <tr><td>" . $row['id'] . "</td><td>" . $row['dateReq'] . "</td><td>" . $row['lot'] . "</td><td>" . $row['type'] . "</td><td>" . $row['description'] . "</td><td>" . $row['notes'] . "</td><td>"
+           . $row['complete'] . "</td></tr></tbody></table>";
         }
       } else {
         echo "0 results";
@@ -154,7 +153,8 @@
                       </tr>
                     </thead>
                     <tbody>
-          <tr><td>" . $row["id"] . "</td><td>" . $row["dateReq"] . "</td><td>" . $row["lot"] . "</td><td>" . $row["type"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>" . $row['complete'] . "</td></tr>
+          <tr><td>" . $row["id"] . "</td><td>" . $row["dateReq"] . "</td><td>" . $row["lot"] . "</td><td>" . $row["type"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>"
+           . $row['complete'] . "</td></tr>
           </tbody>
           </table>";
         }
@@ -201,7 +201,8 @@
                       </tr>
                     </thead>
                     <tbody>
-          <tr><td>" . $row["id"] . "</td><td>" . $row["dateReq"] . "</td><td>" . $row["lot"] . "</td><td>" . $row["type"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>" . $row['complete'] . "</td></tr>
+          <tr><td>" . $row["id"] . "</td><td>" . $row["dateReq"] . "</td><td>" . $row["lot"] . "</td><td>" . $row["type"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>"
+           . $row['complete'] . "</td></tr>
           </tbody>
           </table>";
         }
