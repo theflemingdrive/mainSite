@@ -96,16 +96,20 @@
                   <table class='table'>
                     <thead>
                       <tr>
-                        <th>#</th>
-                        <th>Firstname</th>
-                        <th>Lastname</th>
-                        <th>Age</th>
-                        <th>City</th>
-                        <th>Country</th>
+                        <th>ID</th>
+                        <th>Date</th>
+                        <th>Lot No.</th>
+                        <th>Type</th>
+                        <th>Description</th>
+                        <th>Notes</th>
+                        <th>Complete</th>
                       </tr>
                     </thead>
                     <tbody>
-          <tr><td>id: " . $row["id"]. "</td><td>" . $row["date"]. "</td><td>" . $row["lotNo"]. "</td><td>" . $row["proType"]. "</td><td>" . $row["description"]. "</td><td>" . $row["notes"] . "</td><td>" . $row["complete"] . "</td>";
+          <tr><td>" . $row["id"] . "</td><td>" . $row["date"] . "</td><td>" . $row["lotNo"] . "</td><td>" . $row["probType"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>" . $row['complete'] . "</td></tr>
+          </tbody>
+          </table>
+          </div>";
         }
       } else {
         echo "0 results";
