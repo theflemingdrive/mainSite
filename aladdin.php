@@ -96,7 +96,7 @@
           <option value="exterior">Exterior</option>
           <option value="other">Other</option>
         </select><br>
-        <label for="description">Description: </label>
+        <label for="description">Description: </label><br>
         <textarea id="description" name="description" rows="5" cols="50"></textarea><br><br>
         <input type="submit">
       </form>
