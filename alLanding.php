@@ -111,7 +111,7 @@
           <tr><td>" . $row["id"] . "</td><td>" . $row["dateReq"] . "</td><td>" . $row["lot"] . "</td><td>" . $row["type"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>" . $row['complete'] . "</td></tr>
           </tbody>
           </table>
-          </div>";
+          </div><br>";
         }
       } else {
         echo "0 results";
@@ -160,7 +160,7 @@
           <tr><td>" . $row["id"] . "</td><td>" . $row["dateReq"] . "</td><td>" . $row["lot"] . "</td><td>" . $row["type"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>" . $row['complete'] . "</td></tr>
           </tbody>
           </table>
-          </div>";
+          </div><br>";
         }
       } else {
         echo "0 results";
