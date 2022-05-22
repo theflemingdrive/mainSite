@@ -14,6 +14,10 @@
       border-radius: 0;
     }
 
+    .pageTitle {
+      color: white;
+    }
+
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row.content {height: 825px}
 
@@ -57,7 +61,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <h1>Aladdin Maintenace</h1>
+      <h1 class="pageTitle">Aladdin Maintenace</h1>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -104,7 +108,7 @@
 </div>
 
 <footer class="container-fluid text-center">
-  <p>Footer Text</p>
+  <p><?php echo date("l jS \of F Y h:i:s A"); ?></p>
 </footer>
 
 <div id="loginWindow" class="modal fade" role="dialog">
