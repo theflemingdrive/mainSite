@@ -116,7 +116,7 @@
       <h4 class="modal-title">Login</h4>
     </div>
     <div class="modal-body">
-      <form class="form-horizontal" method="post" action="/resource/action/loginAction.php">
+      <form class="form-horizontal" method="post" action="/resource/action/alLogin.php">
         <div class="form-group">
           <label class="control-label col-sm-2" for="userName">Username:</label>
           <div class="col-sm-10">
