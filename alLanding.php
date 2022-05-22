@@ -106,7 +106,7 @@
                       </tr>
                     </thead>
                     <tbody>
-          <tr><td>" . $row["id"] . "</td><td>" . $row["date"] . "</td><td>" . $row["lotNo"] . "</td><td>" . $row["probType"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>" . $row['complete'] . "</td></tr>
+          <tr><td>" . $row["id"] . "</td><td>" . $row["dateReq"] . "</td><td>" . $row["lot"] . "</td><td>" . $row["type"] . "</td><td>" . $row["description"] . "</td><td>" . $row['notes'] . "</td><td>" . $row['complete'] . "</td></tr>
           </tbody>
           </table>
           </div>";
