@@ -61,7 +61,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><button type="button" class="btn" data-toggle="modal" data-target="#loginWindow">LOGIN</button></li>
       </ul>
     </div>
   </div>
@@ -106,6 +106,40 @@
 <footer class="container-fluid text-center">
   <p>Footer Text</p>
 </footer>
+
+<div id="loginWindow" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close btn-danger" data-dismiss="modal">&times;</button>
+      <h4 class="modal-title">Login</h4>
+    </div>
+    <div class="modal-body">
+      <form class="form-horizontal" method="post" action="/resource/action/loginAction.php">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="userName">Username:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="userName" maxlength="25" width="48" autocomplete="on" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="passWord">Password:</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="passWord" maxlength="25" width="48" autocomplete="on" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">SUBMIT</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+</div>
 
 </body>
 </html>
