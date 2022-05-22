@@ -118,6 +118,8 @@
       $conn->close();
       ?>
 
+      <br><hr><br>
+
       <h1>Dudley Rd</h1>
       <?php
       $servername = "localhost";
@@ -162,6 +164,8 @@
       }
       $conn->close();
       ?>
+
+      <br><hr><br>
 
       <h1>Hartselle</h1>
       <?php
