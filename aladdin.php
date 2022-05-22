@@ -97,7 +97,7 @@
           <option value="other">Other</option>
         </select><br>
         <label for="description">Description: </label>
-        <input type="text" id="description" name="description"><br><br>
+        <textarea id="description" name="description" rows="5" cols="50"></textarea><br><br>
         <input type="submit">
       </form>
     </div>
