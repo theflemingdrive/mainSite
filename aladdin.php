@@ -72,7 +72,7 @@
     <div class="col-sm-2 sidenav">
     </div>
     <div class="col-sm-8 text-left window">
-      <form>
+      <form action="resource/action/alForm.php">
         <h1>Maintenance Request</h1>
         <hr>
         <label for="parkName">Park: </label>
