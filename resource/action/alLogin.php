@@ -27,7 +27,7 @@ function checkLogin($usr, $pwd) {
     die("Connection failed: " . $conn->connect_error);
   }
 
-  $sql = "SELECT * FROM users WHERE username = '" . $usr . "'";
+  $sql = "SELECT * FROM users WHERE username = " . $usr . "";
   $result = $conn->query($sql);
 
   if ($result->num_rows > 0) {
