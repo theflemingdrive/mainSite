@@ -34,7 +34,7 @@ VALUES ";
 $sql2 = $sql . "('" . $parkName . "', '" . $lotNo . "', '" . $probType . "', '" . $description . "', '" . $date . "')";
 
 if ($conn->query($sql2) === TRUE) {
-  echo "New record created successfully";
+  echo "New Request Accepted <br> <a href='https://www.theflemingdrive.com/aladdin.php'>Back to Home</a>";
 } else {
   echo "Error: " . $sql2 . "<br>" . $conn->error;
 }
