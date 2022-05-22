@@ -30,12 +30,13 @@ if ($conn->connect_error) {
 }
 
 $sql = "INSERT INTO MyGuests (park, lot, type, description, dateReq)
-VALUES (' . $parkName . ', '" . $lotNo . "', '" . $probType . "', '" . $description . "', '" . $date . "')";
+VALUES ";
+$sql2 = $sql . "('" . $parkName . "', '" . $lotNo . "', '" . $probType . "', '" . $description . "', '" . $date . "')";
 
-if ($conn->query($sql) === TRUE) {
+if ($conn->query($sql2) === TRUE) {
   echo "New record created successfully";
 } else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
+  echo "Error: " . $sql2 . "<br>" . $conn->error;
 }
 
 $conn->close();
