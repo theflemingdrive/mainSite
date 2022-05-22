@@ -86,7 +86,7 @@
         die("Connection failed: " . $conn->connect_error);
       }
 
-      $sql = "SELECT * FROM requests WHERE parkName = '231'";
+      $sql = "SELECT * FROM requests WHERE park = '231'";
       $result = $conn->query($sql);
 
       if ($result->num_rows > 0) {
