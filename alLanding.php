@@ -63,7 +63,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><button type="button" class="btn" data-toggle="modal" data-target="#loginWindow">LOGIN</button></li>
+        <li><button type="button" class="btn" onclick="window.location.replace('http://www.theflemingdrive.com/aladdin.php');">LOGOUT</button></li>
       </ul>
     </div>
   </div>
