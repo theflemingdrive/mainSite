@@ -72,7 +72,47 @@
     <div class="col-sm-2 sidenav">
     </div>
     <div class="col-sm-8 text-left window">
-      
+
+      <?php
+      $servername = "localhost";
+      $username = "sfleming6488_almaint";
+      $password = "AlMaint123!%";
+      $dbname = "sfleming6488_almaint";
+
+      // Create connection
+      $conn = new mysqli($servername, $username, $password, $dbname);
+      // Check connection
+      if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+      }
+
+      $sql = "SELECT * FROM requests WHERE parkName = '231'";
+      $result = $conn->query($sql);
+
+      if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+          echo "<div class='table-responsive'>
+                  <table class='table'>
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Age</th>
+                        <th>City</th>
+                        <th>Country</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+          <tr><td>id: " . $row["id"]. "</td><td>" . $row["date"]. "</td><td>" . $row["lotNo"]. "</td><td>" . $row["proType"]. "</td><td>" . $row["description"]. "</td><td>" . $row["notes"] . "</td><td>" . $row["complete"] . "</td>";
+        }
+      } else {
+        echo "0 results";
+      }
+      $conn->close();
+      ?>
+
     </div>
     <div class="col-sm-2 sidenav">
 
