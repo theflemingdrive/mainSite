@@ -14,6 +14,10 @@
       border-radius: 0;
     }
 
+    .pageTitle {
+      color: white;
+    }
+
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row.content {height: 825px}
 
@@ -24,8 +28,8 @@
       height: 100%;
     }
 
-    .window {
-      
+    .window h1 {
+      text-align: center;
     }
 
     /* Set black background color, white text and some padding */
@@ -55,7 +59,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <h1>Aladdin Maintenace</h1>
+      <h1 class="pageTitle">Aladdin Maintenace</h1>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
