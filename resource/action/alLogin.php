@@ -31,6 +31,7 @@ function checkLogin($usr, $pwd) {
   $result = $conn->query($sql);
 
   if ($result->num_rows > 0) {
+    $row = mysqli_fetch_assoc($result);
     // output data of each row
     if ($row["pass"] == $pwd) {
       echo '<script>window.location.replace("http://www.theflemingdrive.com/alLanding.php");</script>';
