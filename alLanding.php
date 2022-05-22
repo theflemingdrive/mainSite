@@ -77,6 +77,7 @@
 
       <div class="well well-lg">
       <h1>231/431</h1>
+      <hr>
       <?php
       $servername = "localhost";
       $username = "sfleming6488_almaint";
@@ -119,10 +120,9 @@
       ?>
     </div>
 
-      <br><hr><br>
-
       <div class="well well-lg" style="clear:both;">
       <h1>Dudley Rd</h1>
+      <hr>
       <?php
       $servername = "localhost";
       $username = "sfleming6488_almaint";
@@ -167,10 +167,9 @@
       ?>
     </div>
 
-      <br><hr><br>
-
       <div class="well well-lg">
       <h1>Hartselle</h1>
+      <hr>
       <?php
       $servername = "localhost";
       $username = "sfleming6488_almaint";
