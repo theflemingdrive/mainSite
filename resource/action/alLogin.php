@@ -27,7 +27,7 @@ function checkLogin($usr, $pwd) {
     die("Connection failed: " . $conn->connect_error);
   }
 
-  $sql = "SELECT * FROM users WHERE username = " . $usr . "";
+  $sql = "SELECT * FROM users WHERE username = '" . $usr . "'";
   $result = $conn->query($sql);
 
   if ($result->num_rows > 0) {
@@ -35,6 +35,8 @@ function checkLogin($usr, $pwd) {
     if ($row["pass"] == $pwd) {
       echo '<script>window.location.replace("http://www.theflemingdrive.com/alLanding.php");</script>';
     } else {
+      echo $row["username"];
+      echo $row["pass"];
       echo "Password Incorrect!";
     }
   } else {
