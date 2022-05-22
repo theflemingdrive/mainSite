@@ -29,7 +29,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO MyGuests (park, lot, type, description, dateReq)
+$sql = "INSERT INTO requests (park, lot, type, description, dateReq)
 VALUES ";
 $sql2 = $sql . "('" . $parkName . "', '" . $lotNo . "', '" . $probType . "', '" . $description . "', '" . $date . "')";
 
