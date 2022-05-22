@@ -35,6 +35,7 @@ function checkLogin($usr, $pwd) {
     if ($row["password"] == $pwd) {
       echo '<script>window.location.replace("http://www.theflemingdrive.com/alLanding.php");</script>';
     } else {
+      echo $row["password"];
       echo "Password Incorrect!";
     }
   } else {
