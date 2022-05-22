@@ -25,9 +25,7 @@
     }
 
     .window {
-      display: flex;
-      justify-content: center;
-      align: center;
+      
     }
 
     /* Set black background color, white text and some padding */
