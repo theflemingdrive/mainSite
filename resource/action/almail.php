@@ -29,7 +29,9 @@ $message = "<div class='table-responsive'><table class='table table-hover'>
           <tbody>
 <tr><td>" . $parkName . "</td><td>" . $lotNo . "</td><td>" . $probType . "</td><td>" . $description . "</td></tr></tbody></table></div>";
 
-mail('sidney.a.fleming@gmail.com', 'Maintenance', $message);
+$headers .= 'From: <sfleming6488@theflemingdrive.com>' . "\r\n";
+
+mail('sidney.a.fleming@gmail.com', 'Maintenance', $message, $headers);
 
 echo '<script>
   window.location.replace("http://www.theflemingdrive.com/aladdin.php");
