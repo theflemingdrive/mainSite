@@ -29,6 +29,6 @@ $message = echo "<div class='table-responsive'><table class='table table-hover'>
           <tbody>
 <tr><td>" . $parkName . "</td><td>" . $lotNo . "</td><td>" . $probType . "</td><td>" . $description . "</td></tr></tbody></table></div>";
 
-$mailsent = mail('sidney.a.fleming@gmail.com', 'Maintenance', $message);
+mail('sidney.a.fleming@gmail.com', 'Maintenance', $message);
 
 ?>
