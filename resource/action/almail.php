@@ -20,9 +20,9 @@ function test_input($data) {
 $message = 'Park: ' . $parkName . ' /n
             Lot No: ' . $lotNo . ' /n
             Type: ' . $probType . ' /n
-            Description: ' . $description . ';
+            Description: ' . $description;
 
-$headers .= 'From: <sfleming6488@theflemingdrive.com>' . "\r\n";
+$headers = 'From: <sfleming6488@theflemingdrive.com>' . '\r\n';
 
 mail('sfleming6488@theflemingdrive.com', 'Maintenance', $message, $headers);
 
