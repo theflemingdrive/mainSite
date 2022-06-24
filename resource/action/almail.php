@@ -24,7 +24,7 @@ Description: ' . $description;
 
 $headers = 'From: <sfleming6488@theflemingdrive.com>' . '\r\n';
 
-mail('sidney.a.fleming@gmail.com', 'Maintenance', $message, $headers);
+mail('sfleming6488@theflemingdrive.com', 'Maintenance', $message, $headers);
 
 echo '<script>
   window.location.replace("http://www.theflemingdrive.com/aladdin.php");
