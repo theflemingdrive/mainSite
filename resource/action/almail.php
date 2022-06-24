@@ -17,7 +17,7 @@ function test_input($data) {
   return $data;
 }
 
-$message = echo "<div class='table-responsive'><table class='table table-hover'>
+$message = "<div class='table-responsive'><table class='table table-hover'>
           <thead>
             <tr>
               <th>Park</th>
