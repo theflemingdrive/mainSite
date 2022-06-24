@@ -29,6 +29,14 @@ $message = "<div class='table-responsive'><table class='table table-hover'>
           <tbody>
 <tr><td>" . $parkName . "</td><td>" . $lotNo . "</td><td>" . $probType . "</td><td>" . $description . "</td></tr></tbody></table></div>";
 
-mail('sidney.a.fleming@gmail.com', 'Maintenance', $message);
+$mailsent = mail('sidney.a.fleming@gmail.com', 'Maintenance', $message);
+
+if($mailsent) {
+echo '<script>
+  window.location.replace("http://www.theflemingdrive.com/aladdin.php");
+</script>';
+} else {
+echo 'Error in the message.';
+}
 
 ?>
