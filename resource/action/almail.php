@@ -17,10 +17,10 @@ function test_input($data) {
   return $data;
 }
 
-$message = 'Park: ' . $parkName . ' /n
-            Lot No: ' . $lotNo . ' /n
-            Type: ' . $probType . ' /n
-            Description: ' . $description;
+$message = 'Park: ' . $parkName . '
+Lot No: ' . $lotNo . '
+Type: ' . $probType . '
+Description: ' . $description;
 
 $headers = 'From: <sfleming6488@theflemingdrive.com>' . '\r\n';
 
