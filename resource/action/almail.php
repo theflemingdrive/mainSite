@@ -60,7 +60,7 @@ $message = '<!DOCTYPE html>
       padding: 15px;
     }
 
-    /* On small screens, set height to 'auto' for sidenav and grid */
+    /* On small screens, set height to "auto" for sidenav and grid */
     @media screen and (max-width: 767px) {
       .sidenav {
         height: auto;
